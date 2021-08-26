@@ -37,14 +37,21 @@ body {
     background-color: #002e5b;
     opacity: 80%;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .image-component p {
-    color: white;
     margin-left: 10px;
+    color: white;
 }
 
 .image-button {
     margin-left: 10px;
+    background-color: lightcoral;
+    width: 20%;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
 }
