@@ -34,24 +34,27 @@ body {
 .image-overlay {
     position: absolute;
     top: 70%;
-    background-color: #002e5b;
-    opacity: 80%;
+    background-color: white;
+    opacity: 90%;
     width: 100%;
     padding-bottom: 15px;
 }
 
 .image-component p {
     margin-left: 10px;
-    color: white;
+    color: #002e5b;
+    font-weight: bold;
 }
 
 .image-button {
     margin-left: 10px;
     background-color: lightcoral;
-    width: 20%;
+    width: 30%;
     height: 25px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
