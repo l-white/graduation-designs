@@ -1,0 +1,51 @@
+body {
+    font-family: "Arial";
+    color: #002e5b;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-component {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto 5px;
+    border: 1px solid #002e5b;
+    position: relative;
+}
+
+.first-image {
+    background-image: url('/images/DSC04427.JPG');
+}
+
+.second-image {
+    background-image: url('/images/DSC04435.png');
+}
+
+.third-image {
+    background-image: url('/images/DSC04359.png');
+}
+
+/*.image-overlay {
+    position: absolute;
+    top: 65%;
+    background-color: #002e5b;
+}
+*/
+.image-component p {
+    color: white;
+    position: absolute;
+    top: 75%;
+    margin-left: 5px;
+}
+
+.image-button {
+    position: absolute;
+    top: 90%;
+    margin-left: 5px;
+}
